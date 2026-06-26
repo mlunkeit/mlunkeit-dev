@@ -1,0 +1,76 @@
+@import "../../index.css";
+
+.markdown {
+    font-family: 'Merriweather', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    @apply flex;
+    @apply flex-col;
+    @apply space-y-2;
+}
+
+.markdown h1 {
+    @apply text-6xl;
+    @apply font-bold;
+    @apply mt-8;
+}
+
+.markdown h2 {
+    @apply text-4xl;
+    @apply font-bold;
+    @apply mt-6;
+}
+
+.markdown h3 {
+    @apply text-2xl;
+    @apply font-bold;
+    @apply mt-4;
+}
+
+.markdown hr {
+    @apply text-ctp-surface2;
+    @apply mt-4;
+}
+
+.markdown p:has(> .katex:first-child:last-child) {
+    @apply w-full;
+    @apply flex;
+    @apply justify-center;
+    @apply my-6;
+}
+
+.markdown .hljs-keyword {
+    @apply text-ctp-mauve;
+}
+
+.markdown .hljs-title {
+    @apply text-ctp-blue;
+}
+
+.markdown .hljs-number {
+    @apply text-ctp-peach;
+}
+
+.markdown .hljs-type {
+    @apply text-ctp-yellow;
+}
+
+.markdown .hljs-string {
+    @apply text-ctp-green;
+}
+
+.markdown .hljs-built_in {
+    @apply text-ctp-blue;
+}
+
+.markdown .hljs-comment {
+    @apply text-ctp-overlay1;
+}
+
+.markdown .hljs-punctuation {
+    @apply text-ctp-sky;
+}

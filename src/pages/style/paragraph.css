@@ -1,0 +1,37 @@
+@import "../../index.css";
+
+.paragraph {
+    @apply flex;
+    @apply flex-col;
+    @apply space-y-4;
+}
+
+.paragraph h1 {
+    @apply text-6xl;
+    @apply font-bold;
+    @apply mt-8;
+    @apply text-center;
+}
+
+.paragraph h2 {
+    @apply text-4xl;
+    @apply font-bold;
+    @apply mt-4
+}
+
+.paragraph h3 {
+    @apply text-2xl;
+    @apply font-bold;
+    @apply mt-2;
+}
+
+.paragraph h4 {
+    @apply text-xl;
+    @apply font-bold;
+    @apply mt-2;
+}
+
+.paragraph a {
+    @apply text-ctp-blue;
+    @apply underline;
+}

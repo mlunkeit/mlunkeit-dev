@@ -1,23 +1,24 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+import Hero from "./pages/Hero";
+import Notes from "./pages/Notes";
+import Imprint from "./pages/Imprint";
+import Privacy from "./pages/Privacy";
 
 export default function App()
 {
   return (
-    <div className="bg-ctp-crust min-h-screen w-full relative text-ctp-text font-mono">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Hero />} />
 
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e1e2e_1px,transparent_1px),linear-gradient(to_bottom,#1e1e2e_1px,transparent_1px)]
-        bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none z-0"
-      />
+          <Route path="notes/*" element={<Notes />} />
 
-      <div className="relative z-10 flex flex-col min-h-screen">
-        <Navbar />
-
-        <main className="flex-1 flex items-center justify-center">
-          <Hero />
-        </main>
-      </div>
-
-    </div>
+          <Route path="imprint" element={<Imprint />} />
+          <Route path="privacy" element={<Privacy />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
