@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Sidebar({ children }: { children: React.ReactNode })
 {
   return (
@@ -11,7 +13,7 @@ export function SidebarSection({ label, link, children }: { label: string; link:
 {
   return (
     <div>
-      <a className="text-ctp-text font-bold duration-300 hover:text-ctp-lavender" href={link}>{label}</a>
+      <Link className="text-ctp-text font-bold duration-300 hover:text-ctp-lavender" to={link}>{label}</Link>
       <div className="ml-1 pl-3 border-l-2 border-ctp-surface2 flex flex-col space-y-2 pt-2 pb-2">
         {children}
       </div>
@@ -23,7 +25,7 @@ export function SidebarItem({ label, link }: { label: string; link: string })
 {
   return (
     <div>
-      <a className="text-ctp-text duration-300 hover:text-ctp-lavender" href={link}>{label}</a>
+      <Link className="text-ctp-text duration-300 hover:text-ctp-lavender" to={link}>{label}</Link>
     </div>
   )
 }

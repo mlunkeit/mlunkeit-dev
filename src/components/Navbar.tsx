@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 function NavItem({ href, text }: { href: string; text: string })
 {
   return (
-    <li><a className="p-1 rounded text-ctp-lavender duration-200 hover:bg-ctp-lavender hover:text-ctp-base" href={href}>{text}</a></li>
+    <li><Link className="p-1 rounded text-ctp-lavender duration-200 hover:bg-ctp-lavender hover:text-ctp-base" to={href}>{text}</Link></li>
   )
 }
 
