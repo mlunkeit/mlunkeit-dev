@@ -13,13 +13,13 @@ export default function Navbar()
     <nav className="bg-ctp-base p-3 flex flex-row gap-6 m-4 mb-0 rounded-2xl border border-ctp-surface2">
       <span>mlunkeit.dev</span>
       <ul className="flex flex-row gap-4">
-        <NavItem href="/" text="Home" />
-        <NavItem href="/notes" text="Notes" />
+        <NavItem href="/" text="home" />
+        <NavItem href="/notes" text="notebook" />
       </ul>
       <ul className="ml-auto flex flex-row gap-4">
         §
-        <NavItem href="/imprint" text="Impressum" />
-        <NavItem href="/privacy" text="Datenschutzerklärung" />
+        <NavItem href="/imprint" text="imprint" />
+        <NavItem href="/privacy" text="privacy" />
       </ul>
     </nav>
   )

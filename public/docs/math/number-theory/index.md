@@ -1,7 +1,5 @@
-# Zahlentheorie
+# Number Theory
 
 ---
 
-Die Zahlentheorie ist ein Teilgebiet der diskreten Mathematik. Sie beschäftigt sich, wie der Name bereits sagt,
-mit den Eigenschaften, der Struktur und den Beziehungen von Zahlen. Ein Hauptgebiet ihrer Anwendung ist die
-Kryptographie, mit der ich mich hier ausführlicher beschäftigen möchte.
+The number theory is a branch of discrete mathematics. It deals with the properties, structure, and relationships of numbers. A main application of it is cryptography, which I will be discussing in more detail in the following.

@@ -1,10 +1,9 @@
-# Kryptographie
+# Cryptography
 
 ---
 
-Die Kryptographie beschäftigt sich mit der sicheren Übermittlung von Daten. Hierbei sollen zwei Parteien Informationen austauschen können,
-ohne dass sie von einer dritten (bösartigen) Partei weder gelesen noch manipuliert werden können.
+Cryptography deals with the problem of secure communication between two parties. Its main goal is to ensure that the communication is secure, i.e. that the data is not readable or manipulable by a third (possibly malicious) party.
 
-Dabei werden **symmetrische** und **asymmetrische** Verfahren unterschieden.
+We distinguish between **symmetric** and **asymmetric** procedures of cryptography.
 
-## Symmetrische Verfahren
+## Symmetric Procedures

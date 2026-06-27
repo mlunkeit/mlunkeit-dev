@@ -58,12 +58,12 @@ export default function Notes()
 
   const doc = findDocByPath(notesDocs, path);
 
-  const [markdownContent, setMarkdownContent] = useState("Willkommen! Bitte wähle eine Notiz aus.");
+  const [markdownContent, setMarkdownContent] = useState("Please select an entry.");
 
   useEffect(() => {
     if (!doc || !doc.filePath) return;
 
-    setMarkdownContent("Laden...");
+    setMarkdownContent("Loading...");
 
     fetch(doc.filePath)
       .then((response) => {
@@ -72,7 +72,7 @@ export default function Notes()
       })
       .then((response) => response.text())
       .then((text) => setMarkdownContent(text))
-      .catch((error) => setMarkdownContent("Fehler beim Laden: " + error.message));
+      .catch((error) => setMarkdownContent("Error loading: " + error.message));
   }, [location.pathname, doc]);
 
   return (<div className="min-h-full w-full flex flex-row p-4 space-x-4">

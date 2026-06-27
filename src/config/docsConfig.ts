@@ -8,22 +8,22 @@ export interface DocItem {
 export const notesDocs: DocItem[] = [
   {
     id: "math",
-    title: "Mathematik",
+    title: "mathematics",
     filePath: "/docs/math/index.md",
     items: [
       {
         id: "number-theory",
-        title: "Zahlentheorie",
+        title: "number theory",
         filePath: "/docs/math/number-theory/index.md",
         items: [
           {
             id: "residue-classes",
-            title: "Restklassen",
+            title: "residue classes",
             filePath: "/docs/math/number-theory/residue-classes.md",
           },
           {
             id: "euclidean-algorithm",
-            title: "Euklidischer Algorithmus",
+            title: "euclidean algorithm",
             filePath: "/docs/math/number-theory/euclidean-algorithm.md",
           },
         ]
@@ -32,12 +32,12 @@ export const notesDocs: DocItem[] = [
   },
   {
     id: "cryptography",
-    title: "Kryptographie",
+    title: "cryptography",
     filePath: "/docs/cryptography/index.md",
     items: [
       {
         id: "rsa",
-        title: "Der RSA Algorithmus",
+        title: "the rsa algorithm",
         filePath: "/docs/cryptography/rsa/index.md",
         items: [
 

@@ -1,5 +1,5 @@
-# Mathematik
+# Mathematics
 
 ---
 
-Hier findest du meine Notizen zu mathematischen Themen. Bitte wähle eine Unterkategorie, um mehr zu sehen.
+You can find my notes to mathemtical topics here. Please select a subcategory to see more.

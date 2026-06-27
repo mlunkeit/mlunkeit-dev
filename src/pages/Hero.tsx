@@ -23,7 +23,7 @@ export default function Hero()
         <div className="p-4 flex flex-col space-y-2">
           <pre className="font-bold text-ctp-blue">{nameAscii}</pre>
 
-          <div className="text-ctp-subtext0">Willkommen auf meiner Webseite! Hier findest du Informationen über mich und über mathematische und informatische Themen, die mich interessieren.</div>
+          <div className="text-ctp-subtext0">Welcome to my website! You can find informations about me and mathematical and computer science related topics here.</div>
 
           <div>
             <span className="text-ctp-green">guest@mlunkeit.dev</span>:<span className="text-ctp-blue">~</span>$ cat info.md
