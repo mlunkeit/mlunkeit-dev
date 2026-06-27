@@ -18,7 +18,7 @@ export default function Navbar()
       </ul>
       <ul className="ml-auto flex flex-row gap-4">
         §
-        <NavItem href="/imprint" text="imprint" />
+        <NavItem href="/imprint" text="legal notice" />
         <NavItem href="/privacy" text="privacy" />
       </ul>
     </nav>
