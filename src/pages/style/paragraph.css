@@ -4,29 +4,35 @@
     @apply flex;
     @apply flex-col;
     @apply space-y-4;
+    @apply text-sm;
+    @apply sm:text-base;
 }
 
 .paragraph h1 {
-    @apply text-6xl;
+    @apply text-2xl;
+    @apply sm:text-6xl;
     @apply font-bold;
     @apply mt-8;
     @apply text-center;
 }
 
 .paragraph h2 {
-    @apply text-4xl;
+    @apply text-xl;
+    @apply sm:text-4xl;
     @apply font-bold;
     @apply mt-4
 }
 
 .paragraph h3 {
-    @apply text-2xl;
+    @apply text-lg;
+    @apply sm:text-2xl;
     @apply font-bold;
     @apply mt-2;
 }
 
 .paragraph h4 {
-    @apply text-xl;
+    @apply text-base;
+    @apply sm:text-xl;
     @apply font-bold;
     @apply mt-2;
 }

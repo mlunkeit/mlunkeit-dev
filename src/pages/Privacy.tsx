@@ -2,8 +2,8 @@ import "./style/paragraph.css";
 
 export default function Privacy() {
   return (
-    <div className="p-4 w-full h-full flex flex-col items-center overflow-y-scroll">
-      <div className="paragraph w-3xl">
+    <div className="p-4 w-full h-full flex flex-col items-center overflow-y-scroll overflow-x-scroll">
+      <div className="paragraph w-full lg:w-3xl">
         <h1>Datenschutzhinweise</h1>
         <h2>Verantwortlicher</h2>
         <p>Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutz-Grundverordnung (DSGVO), ist:</p>

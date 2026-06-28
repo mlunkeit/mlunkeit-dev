@@ -5,6 +5,8 @@ export interface DocItem {
   items?: DocItem[];
 }
 
+export const indexPage = "/docs/index.md";
+
 export const notesDocs: DocItem[] = [
   {
     id: "math",

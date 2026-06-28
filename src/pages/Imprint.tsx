@@ -3,7 +3,7 @@ import "./style/paragraph.css";
 export default function Imprint() {
   return (
     <div className="p-4 w-full h-full flex flex-col items-center justify-center">
-      <div className="paragraph w-3xl">
+      <div className="paragraph w-full md:w-3xl">
         <h1>Impressum</h1>
         <h2>Verantwortlicher</h2>
         <p>Malte Lunkeit</p>
