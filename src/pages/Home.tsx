@@ -1,4 +1,5 @@
-import { Rust, C, CPlusplus, Java, LinuxTux, GitIcon, DockerIcon, MysqlIcon, Gopher, Python } from "@dev.icons/react/mono";
+import { Rust, C, CPlusplus, Java, LinuxTux, GitIcon, DockerIcon, MysqlIcon, Gopher, Python, GithubIcon } from "@dev.icons/react/mono";
+import { MailIcon } from "lucide-react";
 
 const nameAscii = `
     __  ___      ____         __                __        _ __
@@ -9,11 +10,10 @@ const nameAscii = `
 
 `;
 
-export default function Hero()
+function Hero()
 {
   return (
-    <div className="font-mono text-ctp-text min-h-[85vh] w-full flex items-center justify-center p-4 md:p-8">
-      <div className="bg-ctp-base border-ctp-surface0 border-2 rounded-xl p-2 max-w-5xl">
+      <div className="bg-ctp-base border-ctp-surface0 border-2 rounded-xl p-2 max-w-5xl mt-auto mb-auto">
         <div className="flex space-x-1.5">
           <div className="w-3 h-3 rounded-full bg-ctp-red" />
           <div className="w-3 h-3 rounded-full bg-ctp-yellow" />
@@ -50,12 +50,36 @@ export default function Hero()
               <span className="inline-flex items-center gap-1"><DockerIcon size={20} /> Docker</span>
               <span className="inline-flex items-center gap-1"><MysqlIcon size={20} /> MySQL / MariaDB</span>
             </p>
+            <p>Social</p>
+            <p className="flex items-center gap-5 flex-wrap">
+              <span className="text-ctp-lavender font-bold inline-flex items-center gap-2">➔ <GithubIcon size={20} /> GitHub:</span>
+              <a href="https://github.com/mlunkeit" target="_blank" rel="noopener noreferrer">mlunkeit</a>
+            </p>
+            <p className="flex items-center gap-5 flex-wrap">
+              <span className="text-ctp-flamingo font-bold inline-flex items-center gap-2">➔ <MailIcon size={20} /> Email:</span>
+              <a href="mailto:guest@mlunkeit.dev" target="_blank" rel="noopener noreferrer">mail@mlunkeit.dev</a>
+            </p>
           </div>
 
           <div>
             <span className="text-ctp-green">guest@mlunkeit.dev</span>:<span className="text-ctp-blue">~</span>$ <span className="w-2 h-4 bg-ctp-text animate-terminal-cursor inline-block" />
           </div>
         </div>
+      </div>
+  )
+}
+
+export default function Home()
+{
+  return (
+    <div className="font-mono text-ctp-text min-h-[85vh] w-full flex flex-col items-center justify-center p-4 md:p-8">
+      <Hero />
+      <div className="text-center text-ctp-overlay2">
+        <p>&copy; 2026 Malte Lunkeit</p>
+        <p>
+          Built with <a className="text-ctp-sky" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a> and styled using
+          <a className="text-ctp-mauve" href="https://catppuccin.com" target="_blank" rel="noopener noreferrer"> Catppuccin</a> color palette.
+        </p>
       </div>
     </div>
   )

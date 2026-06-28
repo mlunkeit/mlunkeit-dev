@@ -11,7 +11,7 @@ export default function Imprint() {
         <p>Lehnitzstraße 7<br />
         12623 Berlin</p>
         <h3>Kontakt</h3>
-        <p>E-Mail: malte.lunkeit@gmail.com</p>
+        <p>E-Mail: mail@mlunkeit.dev</p>
         <p>Telefon: +49 (0) 174 3611686</p>
         <p><em>Dieses Impressum wurde mit Hilfe des <a href="https://www.activemind.de/generatoren/impressum/" target="_blank" rel="noopener">Impressums-Generators der activeMind AG</a> erstellt (Version 2024-07-21).</em></p>
       </div>
