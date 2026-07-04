@@ -36,6 +36,18 @@
     @apply mt-4;
 }
 
+.markdown li {
+    @apply relative;
+    @apply ml-3;
+    @apply mt-2;
+}
+
+.markdown li::before {
+    content: '\2022';
+    left: calc(var(--spacing) * (-3));
+    @apply absolute;
+}
+
 .markdown p:has(> .katex:first-child:last-child) {
     @apply w-full;
     @apply flex;

@@ -20,8 +20,8 @@ export const notesDocs: DocItem[] = [
         items: [
           {
             id: "residue-classes",
-            title: "residue classes",
-            filePath: "/docs/math/number-theory/residue-classes.md",
+            title: "modular arithmetic",
+            filePath: "/docs/math/number-theory/modular-arithmetic.md",
           },
           {
             id: "euclidean-algorithm",

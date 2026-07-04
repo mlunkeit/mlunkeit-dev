@@ -1,4 +1,4 @@
-import { Rust, C, CPlusplus, Java, LinuxTux, GitIcon, DockerIcon, MysqlIcon, Gopher, Python, GithubIcon } from "@dev.icons/react/mono";
+import { Rust, C, CPlusplus, Java, LinuxTux, GitIcon, DockerIcon, MysqlIcon, Gopher, Python, GithubIcon, HaskellIcon, Julia } from "@dev.icons/react/mono";
 import { MailIcon } from "lucide-react";
 
 const nameAscii = `
@@ -41,8 +41,12 @@ function Hero()
               <span className="text-ctp-green font-bold">➔ Backend & Cloud: </span>
               <span className="inline-flex items-center gap-1"><Java size={20} /> Java</span>
               <span className="inline-flex items-center gap-1"><Gopher size={20} /> Go</span>
-            </p>
-            <p className="flex items-center gap-5 flex-wrap">
+          </p>
+          <p className="flex items-center gap-5 flex-wrap">
+            <span className="text-ctp-sky font-bold">➔ Functional Programming: </span>
+            <span className="inline-flex items-center gap-1"><HaskellIcon size={20} /> Haskell</span>
+          </p>
+          <p className="flex items-center gap-5 flex-wrap">
               <span className="text-ctp-mauve font-bold">➔ Scripting & Tooling: </span>
               <span className="inline-flex items-center gap-1"><Python size={20} /> Python</span>
               <span className="inline-flex items-center gap-1"><LinuxTux size={20} /> Linux (Bash/Zsh)</span>
