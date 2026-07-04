@@ -27,7 +27,7 @@ We can derive some trivial theorems from this definition, which will help us lat
 $$
   \begin{split}
   (i)\quad&\forall k\in\Z,m<n\quad kn + m \equiv m\pmod n\\
-  (ii)\quad&a_1\equiv a_2\pmod n\land b_1\equiv b_2\pmod n \Rightarrow a_1+a_2\equiv b_1+b_2\pmod n\\
-  (iii)\quad&a_1\equiv a_2\pmod n\land b_1\equiv b_2\pmod n\Rightarrow a_1\cdot a_2\equiv b_1\cdot b_2\pmod n
+  (ii)\quad&a_1\equiv a_2\pmod n\land b_1\equiv b_2\pmod n \Rightarrow a_1+b_1\equiv a_2+b_2\pmod n\\
+  (iii)\quad&a_1\equiv a_2\pmod n\land b_1\equiv b_2\pmod n\Rightarrow a_1\cdot b_1\equiv a_2\cdot b_2\pmod n
   \end{split}
 $$
