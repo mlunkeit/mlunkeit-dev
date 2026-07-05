@@ -21,7 +21,7 @@ export function Sidebar({ children }: { children: React.ReactNode })
       <div className="relative w-8 lg:w-auto">
         <div className={`${showSidebar ? "flex" : "hidden"}
           lg:bg-ctp-base bg-ctp-crust absolute lg:relative lg:flex flex-col p-3 sm:rounded-2xl
-          sm:border border-ctp-surface2 h-full max-h-full w-xs`}>
+          sm:border border-ctp-surface2 h-full max-h-full w-xs z-10`}>
           <div className="relative h-full w-full">
             {children}
             <div className="flex lg:hidden absolute top-0 right-0 p-3 cursor-pointer"
