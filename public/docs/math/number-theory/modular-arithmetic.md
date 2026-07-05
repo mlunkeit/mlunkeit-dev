@@ -25,11 +25,11 @@ $$
 We can derive some trivial theorems from this definition, which will help us later.
 
 $$
-  \begin{split}
+\begin{split}
   (i)\quad&\forall k\in\Z,m<n\quad kn + m \equiv m\pmod n\\
   (ii)\quad&a_1\equiv a_2\pmod n\land b_1\equiv b_2\pmod n \Rightarrow a_1+b_1\equiv a_2+b_2\pmod n\\
   (iii)\quad&a_1\equiv a_2\pmod n\land b_1\equiv b_2\pmod n\Rightarrow a_1\cdot b_1\equiv a_2\cdot b_2\pmod n
-  \end{split}
+\end{split}
 $$
 
 **Proof**
