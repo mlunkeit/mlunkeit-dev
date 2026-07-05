@@ -1,4 +1,4 @@
-import { Rust, C, CPlusplus, Java, LinuxTux, GitIcon, DockerIcon, MysqlIcon, Gopher, Python, GithubIcon, HaskellIcon, Julia } from "@dev.icons/react/mono";
+import { Rust, C, CPlusplus, Java, LinuxTux, GitIcon, DockerIcon, MysqlIcon, Gopher, Python, GithubIcon, HaskellIcon } from "@dev.icons/react/mono";
 import { MailIcon } from "lucide-react";
 
 const nameAscii = `
